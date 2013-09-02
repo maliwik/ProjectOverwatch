@@ -1,7 +1,7 @@
 "GameInfo"
 {
-	game 		"My First Episodic Mod"
-	title 		"HALF-LIFE'"
+	game 		"Project Overwatch Single Player"
+	title 		"Project Overwatch Single Player"
 	title2		""
 
 	type		singleplayer_only
