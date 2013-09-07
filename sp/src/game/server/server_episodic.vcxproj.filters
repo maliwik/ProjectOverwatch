@@ -36,7 +36,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <Library Include="..\..\lib\win32\release\VS2010\libprotobuf.lib">
+    <Library Include="..\..\lib\public\libprotobuf.lib">
       <Filter>Libraries</Filter>
     </Library>
     <Library Include="..\..\lib\public\choreoobjects.lib">
@@ -3506,15 +3506,15 @@
   <ItemGroup>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="..\..\public\tier0\pointeroverride.asm">
-      <Filter>Source Files</Filter>
-    </CustomBuild>
     <CustomBuild Include="server_episodic.vpc">
       <Filter>VPC Scripts</Filter>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
     <None Include="..\..\vpc_scripts\loadaddress.vpc">
+      <Filter>VPC Scripts</Filter>
+    </None>
+    <None Include="..\..\vpc_scripts\platform_dirs.vpc">
       <Filter>VPC Scripts</Filter>
     </None>
     <None Include="..\..\vpc_scripts\protobuf_builder.vpc">

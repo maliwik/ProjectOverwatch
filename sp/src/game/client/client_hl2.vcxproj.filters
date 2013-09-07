@@ -51,10 +51,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <Library Include="..\..\lib\win32\release\VS2010\libprotobuf.lib">
-      <Filter>Libraries</Filter>
-    </Library>
-    <Library Include="..\..\lib\win32\debug\VS2010\libprotobuf.lib">
+    <Library Include="..\..\lib\public\libprotobuf.lib">
       <Filter>Libraries</Filter>
     </Library>
     <Library Include="..\..\lib\public\bitmap.lib">
@@ -64,6 +61,12 @@
       <Filter>Link Libraries</Filter>
     </Library>
     <Library Include="..\..\lib\public\dmxloader.lib">
+      <Filter>Link Libraries</Filter>
+    </Library>
+    <Library Include="..\..\lib\common\libcurl.lib">
+      <Filter>Link Libraries</Filter>
+    </Library>
+    <Library Include="..\..\lib\public\libz.lib">
       <Filter>Link Libraries</Filter>
     </Library>
     <Library Include="..\..\lib\public\mathlib.lib">
@@ -3365,9 +3368,6 @@
   <ItemGroup>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="..\..\public\tier0\pointeroverride.asm">
-      <Filter>Source Files</Filter>
-    </CustomBuild>
     <CustomBuild Include="client_hl2.vpc">
       <Filter>VPC Scripts</Filter>
     </CustomBuild>
@@ -3377,6 +3377,9 @@
       <Filter>VPC Scripts</Filter>
     </None>
     <None Include="..\..\vpc_scripts\loadaddress.vpc">
+      <Filter>VPC Scripts</Filter>
+    </None>
+    <None Include="..\..\vpc_scripts\platform_dirs.vpc">
       <Filter>VPC Scripts</Filter>
     </None>
     <None Include="..\..\vpc_scripts\protobuf_builder.vpc">

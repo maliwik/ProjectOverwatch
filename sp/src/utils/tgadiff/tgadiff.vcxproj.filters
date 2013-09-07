@@ -44,15 +44,21 @@
   <ItemGroup>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="..\..\public\tier0\pointeroverride.asm">
-      <Filter>Source Files</Filter>
-    </CustomBuild>
     <CustomBuild Include="tgadiff.vpc">
       <Filter>VPC Scripts</Filter>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
     <None Include="..\..\vpc_scripts\loadaddress.vpc">
+      <Filter>VPC Scripts</Filter>
+    </None>
+    <None Include="..\..\vpc_scripts\platform_dirs.vpc">
+      <Filter>VPC Scripts</Filter>
+    </None>
+    <None Include="..\..\vpc_scripts\source_base.vpc">
+      <Filter>VPC Scripts</Filter>
+    </None>
+    <None Include="..\..\vpc_scripts\source_exe_con_base.vpc">
       <Filter>VPC Scripts</Filter>
     </None>
     <None Include="..\..\vpc_scripts\source_exe_con_win32_base.vpc">

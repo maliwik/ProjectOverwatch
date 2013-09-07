@@ -541,6 +541,9 @@
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
+    <None Include="..\..\vpc_scripts\platform_dirs.vpc">
+      <Filter>VPC Scripts</Filter>
+    </None>
     <None Include="..\..\vpc_scripts\protobuf_builder.vpc">
       <Filter>VPC Scripts</Filter>
     </None>

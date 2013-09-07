@@ -59,9 +59,6 @@
     </ResourceCompile>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="..\..\public\tier0\pointeroverride.asm">
-      <Filter>Source Files</Filter>
-    </CustomBuild>
     <CustomBuild Include="qc_eyes.vpc">
       <Filter>VPC Scripts</Filter>
     </CustomBuild>
@@ -109,6 +106,15 @@
     <None Include="..\..\vpc_scripts\loadaddress.vpc">
       <Filter>VPC Scripts</Filter>
     </None>
+    <None Include="..\..\vpc_scripts\platform_dirs.vpc">
+      <Filter>VPC Scripts</Filter>
+    </None>
+    <None Include="..\..\vpc_scripts\source_base.vpc">
+      <Filter>VPC Scripts</Filter>
+    </None>
+    <None Include="..\..\vpc_scripts\source_exe_base.vpc">
+      <Filter>VPC Scripts</Filter>
+    </None>
     <None Include="..\..\vpc_scripts\source_exe_win_win32_base.vpc">
       <Filter>VPC Scripts</Filter>
     </None>
@@ -116,6 +122,9 @@
       <Filter>VPC Scripts</Filter>
     </None>
     <None Include="..\..\vpc_scripts\source_exe_win_win32_release.vpc">
+      <Filter>VPC Scripts</Filter>
+    </None>
+    <None Include="..\..\vpc_scripts\source_video_base.vpc">
       <Filter>VPC Scripts</Filter>
     </None>
     <None Include="..\..\vpc_scripts\source_win32_base.vpc">

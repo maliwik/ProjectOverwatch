@@ -551,9 +551,6 @@
   <ItemGroup>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="..\..\public\tier0\pointeroverride.asm">
-      <Filter>Source Files</Filter>
-    </CustomBuild>
     <CustomBuild Include="vrad_dll.vpc">
       <Filter>VPC Scripts</Filter>
     </CustomBuild>
@@ -565,6 +562,15 @@
     <None Include="..\..\vpc_scripts\loadaddress.vpc">
       <Filter>VPC Scripts</Filter>
     </None>
+    <None Include="..\..\vpc_scripts\platform_dirs.vpc">
+      <Filter>VPC Scripts</Filter>
+    </None>
+    <None Include="..\..\vpc_scripts\source_base.vpc">
+      <Filter>VPC Scripts</Filter>
+    </None>
+    <None Include="..\..\vpc_scripts\source_dll_base.vpc">
+      <Filter>VPC Scripts</Filter>
+    </None>
     <None Include="..\..\vpc_scripts\source_dll_win32_base.vpc">
       <Filter>VPC Scripts</Filter>
     </None>
@@ -572,6 +578,9 @@
       <Filter>VPC Scripts</Filter>
     </None>
     <None Include="..\..\vpc_scripts\source_dll_win32_release.vpc">
+      <Filter>VPC Scripts</Filter>
+    </None>
+    <None Include="..\..\vpc_scripts\source_video_base.vpc">
       <Filter>VPC Scripts</Filter>
     </None>
     <None Include="..\..\vpc_scripts\source_win32_base.vpc">

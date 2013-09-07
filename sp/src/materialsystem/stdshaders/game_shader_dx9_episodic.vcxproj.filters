@@ -104,9 +104,6 @@
     <CustomBuild Include="SDK_screenspaceeffect_vs20.fxc">
       <Filter>Shader Source\fxc</Filter>
     </CustomBuild>
-    <CustomBuild Include="..\..\public\tier0\pointeroverride.asm">
-      <Filter>Source Files</Filter>
-    </CustomBuild>
     <CustomBuild Include="game_shader_dx9_episodic.vpc">
       <Filter>VPC Scripts</Filter>
     </CustomBuild>
@@ -122,6 +119,9 @@
       <Filter>VPC Scripts</Filter>
     </None>
     <None Include="..\..\vpc_scripts\loadaddress.vpc">
+      <Filter>VPC Scripts</Filter>
+    </None>
+    <None Include="..\..\vpc_scripts\platform_dirs.vpc">
       <Filter>VPC Scripts</Filter>
     </None>
     <None Include="..\..\vpc_scripts\source_base.vpc">
